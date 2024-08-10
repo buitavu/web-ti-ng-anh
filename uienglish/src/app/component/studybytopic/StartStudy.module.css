@@ -1,0 +1,64 @@
+.card_item{
+    height: 500px;
+    background: aliceblue;
+    width: 40%;
+    margin: auto;
+}
+
+.card_item_button{
+    width: 100%;
+    display: flex;
+}
+
+.card_item button{
+    padding: 10px;
+    margin: 10px auto auto auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.card_container1{
+    width: 100%;
+    height: 100%;
+}
+
+.card_container{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card_container h2{
+    text-align: center;
+    margin: auto;
+}
+
+.card_container p{
+    text-align: center;
+    margin: auto;
+}
+
+.card_container button{
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+.form_answer{
+    text-align: center;
+    height: 300px;
+    width: 50%;
+    left: 20px;
+    margin-left: 26%;
+    border-radius: 7px;
+    /* background: url('./img.jpg');  */
+    top:0px
+}
+
+ .form_answer h3{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 12px;
+  }

@@ -1,0 +1,77 @@
+.tudinhnghia_container{
+    height: 1000px;
+    background: url('./img.jpg') no-repeat;
+    margin-top: -72px;
+    margin-left: -24px;
+    width: 105%;
+} 
+.tudinhnghia_form{
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 50px 35px;
+    margin-top: 11rem;
+}
+
+.tudinhnghia_form *{
+    font-family: 'Poppins',sans-serif;
+    color: #050000;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.tudinhnghia_form h3{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.tudinhnghia_form label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.tudinhnghia_form input{
+    display: block;
+    height: 50px;
+    width: 95%;
+    background-color: rgba(17, 2, 2, 0.07);
+    border-radius: 17px;
+    padding: 0px 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+}
+
+.tudinhnghia_form button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tudinhnghia_form button:hover{
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+

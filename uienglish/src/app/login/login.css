@@ -1,0 +1,176 @@
+
+
+
+
+
+.login{
+    /* background-color: #141224; */
+    height: 100vh;
+    background: url('./img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+form{
+    height: 510px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 40px 40px;
+    background: transparent;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box .icon{
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 185px;
+}
+   
+
+.input-box input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 40px;
+   
+
+
+}
+
+
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: linear-gradient(90deg,#08ff08,#50e3fc,#bc13fe,#03a9f4,#0ff0fc);
+    background-size: 500%;
+    z-index: 1;
+    animation: blink 7s linear infinite;
+}
+@keyframes blink{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 500%;
+    }
+}
+button::after{
+    content: "";
+    position: absolute;
+    left: -10px;
+    right:-10px;
+    bottom: -10px;
+    background: inherit;
+    filter: blur(50px);
+    border-radius: 40px;
+    opacity: 0;
+}
+button:hover::after{
+    opacity: 1;
+    z-index: -1;
+}
+
+form div{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+form div span{
+    cursor: pointer;
+}
+.register-link{
+    font-size: 14.5;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p span{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 9px;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+} 
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0 15px; 
+   
+    
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+    
+}
+
+.remember-forgot label{
+    font-size: 15px;
+    margin-top: 0px;
+ 
+}
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+}

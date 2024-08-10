@@ -1,0 +1,52 @@
+/* components/VocabularyItem.module.css */
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .word {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .phonetic {
+    color: #888;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+  
+  .type {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .meaning {
+    color: #333;
+  }
+
+  .plus_button{
+    background-color: #98ff979e;
+    border: 1px solid #10ffa4;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #091202;
+    cursor: pointer;
+  }
+
+  .plus_button:disabled{
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: alias;
+  }
+
+  
+  

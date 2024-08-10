@@ -1,0 +1,100 @@
+/* RegistrationForm.css */
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.registration_form {
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 385px;
+}
+
+.registration_form > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+}
+
+.form_group {
+    margin-bottom: 15px;
+}
+
+.form_group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form_group input {
+    width: 100%;
+    padding: 14px;
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border-radius: 5px;
+}
+.form_group input::placeholder{
+    color: #e5e5e5;
+}
+
+.submit_button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.submit_button:hover{
+    background: linear-gradient(90deg,#08ff08,#50e3fc,#bc13fe,#03a9f4,#0ff0fc);
+    background-size: 500%;
+    z-index: 1;
+    animation: blink 7s linear infinite;
+}
+@keyframes blink{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 500%;
+    }
+}
+.submit_button::after{
+    content: "";
+    position: absolute;
+    left: -10px;
+    right:-10px;
+    bottom: -10px;
+    background: inherit;
+    filter: blur(50px);
+    border-radius: 40px;
+    opacity: 0;
+}
+.submit_button:hover::after{
+    opacity: 1;
+    z-index: -1;
+}
+.form_group box-icon{
+    float: right;
+    margin-right: 12px;
+    margin-top: -33px;
+}
